@@ -1,13 +1,11 @@
-const counterIncrease=()=>{
+export const counterIncrease=()=>{
     return{
-       type:"COUNTER-INCREASE",
+       type:"INCREASE_COUNTER",
     }
 }
 
-const counterDecrease=()=>{
+export const counterDecrease=()=>{
     return{
-        type:"COUNTER-DECREASE",
+        type:"DECREASE_COUNTER",
     }
     }
-
-export default{counterDecrease,counterIncrease};
